@@ -674,7 +674,7 @@ button:hover {
   .footer-banner-container {
     margin-top: 25%;
     height: auto;
-    padding: 10%;
+    padding: 9%;
     border-radius: 0;
   }
 
@@ -713,9 +713,13 @@ button:hover {
     display: block;
   }
 
+  .product-detail-image {
+    height: 20em;
+    width: auto;
+  }
+
   .quantity,
-  .reviews,
-  .buttons {
+  .reviews {
     display: inline-flex !important;
   }
 
