@@ -674,12 +674,12 @@ button:hover {
   .footer-banner-container {
     margin-top: 25%;
     height: auto;
-    padding: 9%;
+    padding: 6%;
     border-radius: 0;
   }
 
   .footer-banner-image {
-    left: 25%;
+    left: 19%;
     filter: brightness(70%);
     top: 33%;
     height: 67%;
@@ -725,7 +725,56 @@ button:hover {
 
   .buttons {
     gap: 10px !important;
-    margin-left: -5px;
+  }
+
+  .cart-container {
+    width: 85%;
+  }
+
+  .btn-container {
+    width: auto;
+  }
+
+  .product-detail-container {
+    height: 62%;
+    overflow: scroll;
+  }
+
+  .product {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .item-desc .flex {
+    width: auto;
+    padding: 0px 8px;
+  }
+
+  .flex h5 {
+    font-size: 15px;
+  }
+
+  .quantity-desc span {
+    padding: 2px 9px;
+  }
+
+  .item-desc .bottom {
+    margin-top: 10px;
+  }
+
+  .product .cart-product-image {
+    width: auto;
+    height: 70px;
+  }
+
+  .cart-bottom {
+    right: 0px;
+    padding: 30px 60px;
+  }
+
+  .flex {
+    width: auto;
+    display: block;
   }
 }
 
